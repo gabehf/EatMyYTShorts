@@ -5,7 +5,7 @@ function initContentScript() {
         if (url[1] == 'shorts' ) { // if the video is a short
             console.log('EatMyYTShorts: Fixing video...')
             vidID = url[2] //the unique video id
-            location.assign(`https://youtube.com/watch?v=${vidID}`)
+            location.replace(`https://youtube.com/watch?v=${vidID}`)
         }
 }
 
