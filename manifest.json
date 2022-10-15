@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "EatMyYTShorts",
+  "version": "1.0",
+
+  "description": "Changes YouTube Shorts videos to normal videos.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["eatmyytshorts.js"]
+    }
+  ],
+
+  "permissions": ["webNavigation", "tabs"]
+
+}
