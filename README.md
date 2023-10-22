@@ -1,3 +1,5 @@
+Note: This repo was forked from my old github account
+
 ### EatMyYTShorts
 ## The extension to never have to deal with youtube's awful shorts player on desktop youtube.
 
